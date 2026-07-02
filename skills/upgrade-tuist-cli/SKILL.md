@@ -303,13 +303,20 @@ gh pr create --base <base-branch> --head chore/upgrade-tuist-<version-with-dashe
 
 If already on a feature branch, do not switch branches without checking status. You may commit on the current branch if it is clearly dedicated to the Tuist upgrade.
 
-After `gh pr create` succeeds, open the PR in the user's browser:
+After `gh pr create` succeeds, capture the PR URL and open it in the user's browser. Prefer an explicit URL open over relying only on `gh pr view --web`:
+
+```bash
+PR_URL="$(gh pr view --json url --jq '.url')"
+open "$PR_URL"
+```
+
+On macOS, use `open "$PR_URL"`. On Linux, use `xdg-open "$PR_URL"` when available. If the platform-specific opener is unavailable, fallback to:
 
 ```bash
 gh pr view --web
 ```
 
-If `gh pr view --web` fails, report the PR URL, the browser-open failure, and include the PR body/change summary directly in the final prompt response so the user can review what changed without opening the browser. Do not treat browser-open failure as an upgrade failure.
+The final response must explicitly say whether the browser-open command was executed successfully. If all browser-open attempts fail, report the PR URL, the browser-open failure, and include the PR body/change summary directly in the final prompt response so the user can review what changed without opening the browser. Do not treat browser-open failure as an upgrade failure.
 
 ## Release-note collection for PR body
 
