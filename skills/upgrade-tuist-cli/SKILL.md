@@ -303,20 +303,41 @@ gh pr create --base <base-branch> --head chore/upgrade-tuist-<version-with-dashe
 
 If already on a feature branch, do not switch branches without checking status. You may commit on the current branch if it is clearly dedicated to the Tuist upgrade.
 
-After `gh pr create` succeeds, capture the PR URL and open it in the user's browser. Prefer an explicit URL open over relying only on `gh pr view --web`:
+After `gh pr create` succeeds, capture the PR URL and attempt to open it in the user's browser. Prefer an explicit URL open over relying only on `gh pr view --web`:
 
 ```bash
 PR_URL="$(gh pr view --json url --jq '.url')"
 open "$PR_URL"
 ```
 
-On macOS, use `open "$PR_URL"`. On Linux, use `xdg-open "$PR_URL"` when available. If the platform-specific opener is unavailable, fallback to:
+On macOS, first use `open "$PR_URL"`. If the user reports that the browser did not visibly open, or if the environment may swallow `open`, also try AppleScript:
+
+```bash
+osascript -e "open location \"$PR_URL\""
+```
+
+On Linux, use `xdg-open "$PR_URL"` when available. If the platform-specific opener is unavailable, fallback to:
 
 ```bash
 gh pr view --web
 ```
 
-The final response must explicitly say whether the browser-open command was executed successfully. If all browser-open attempts fail, report the PR URL, the browser-open failure, and include the PR body/change summary directly in the final prompt response so the user can review what changed without opening the browser. Do not treat browser-open failure as an upgrade failure.
+Important: CLI opener commands can exit successfully even when the browser is not visible to the user. Do **not** claim "PR opened" as a fact. Say "PR created; browser open command was attempted" unless visibility is confirmed by the user.
+
+The final response must always include the PR URL and a concise PR body/change summary inline, even if the browser-open command reports success. If all browser-open attempts fail, additionally report the browser-open failure. Do not treat browser-open failure as an upgrade failure.
+
+After creating the PR and attempting browser open, return the local checkout to the base branch so the developer is not left on the upgrade branch:
+
+```bash
+git switch <base-branch>
+git status --short --branch
+```
+
+Do not close, delete, or remove the remote PR branch unless the user explicitly asks for cleanup. If local branch cleanup is requested after pushing the PR, delete only the local branch after switching to the base branch:
+
+```bash
+git branch -d chore/upgrade-tuist-<version-with-dashes>
+```
 
 ## Release-note collection for PR body
 
@@ -380,7 +401,8 @@ Selected release: https://github.com/tuist/tuist/releases/tag/<new-version>
 
 Return:
 
-- PR URL and whether it was opened in the browser. If browser opening failed, include the PR body/change summary inline in the response.
+- PR URL, browser-open command attempts, and the inline PR body/change summary. Do not say "PR opened" unless the user confirmed the browser visibly opened.
+- Current local branch after cleanup; normally this should be the base branch such as `main`.
 - If no PR was created, include the explicit blocker from Step 10; do not simply say no PR was created after a successful build.
 - Old version, selected version, and latest stable version.
 - Build verification result.
