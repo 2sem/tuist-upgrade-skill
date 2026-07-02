@@ -1,5 +1,7 @@
 # tuist-upgrade-skill
 
+![Upgrade Tuist CLI skill landing image](assets/polished/linkedin-b2-command-focus.png "Upgrade Tuist CLI — Agent skill for safe Tuist upgrades")
+
 Agent skill for safely upgrading the [Tuist](https://tuist.io/) CLI in iOS projects.
 
 The skill detects how Tuist is installed, finds the latest stable Tuist release, upgrades the project/tooling, validates a clean build, rolls back on unresolved build failures, records failed versions, and opens a PR when the upgrade succeeds.

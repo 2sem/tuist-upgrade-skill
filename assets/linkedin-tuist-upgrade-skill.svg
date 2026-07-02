@@ -1,0 +1,139 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Upgrade Tuist CLI agent skill landing image</title>
+  <desc id="desc">A polished LinkedIn social image for the upgrade-tuist-cli skill, showing an automated Tuist upgrade pipeline from version detection to verified pull request.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07110F"/>
+      <stop offset="0.46" stop-color="#111615"/>
+      <stop offset="1" stop-color="#241A0C"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1004 92) rotate(128.3) scale(475 426)">
+      <stop stop-color="#FFB84D" stop-opacity="0.8"/>
+      <stop offset="0.45" stop-color="#E9572B" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#E9572B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aqua" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(168 522) rotate(-34.6) scale(525 360)">
+      <stop stop-color="#46F3C2" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#1FA6A2" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#1FA6A2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldStroke" x1="157" y1="108" x2="1020" y2="502" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1A6"/>
+      <stop offset="0.36" stop-color="#45F7C5"/>
+      <stop offset="0.72" stop-color="#FFB84D"/>
+      <stop offset="1" stop-color="#F15C2E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="175" y1="99" x2="1040" y2="557" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17211F" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0A0E0D" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="tuist" x1="811" y1="212" x2="1016" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45F7C5"/>
+      <stop offset="0.48" stop-color="#F8D36F"/>
+      <stop offset="1" stop-color="#F15C2E"/>
+    </linearGradient>
+    <filter id="softShadow" x="108" y="54" width="990" height="564" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.52 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+    <filter id="glow" x="714" y="117" width="374" height="384" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.27 0 0 0 0 0.98 0 0 0 0 0.77 0 0 0 0.46 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#E8DDB9" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <pattern id="noise" width="160" height="160" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="20" r="1" fill="#fff" opacity="0.08"/>
+      <circle cx="72" cy="31" r="1" fill="#fff" opacity="0.05"/>
+      <circle cx="132" cy="11" r="1" fill="#fff" opacity="0.07"/>
+      <circle cx="45" cy="93" r="1" fill="#fff" opacity="0.05"/>
+      <circle cx="118" cy="112" r="1" fill="#fff" opacity="0.08"/>
+      <circle cx="24" cy="146" r="1" fill="#fff" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#ember)"/>
+  <rect width="1200" height="630" fill="url(#aqua)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#noise)"/>
+
+  <path d="M-31 433C139 361 245 383 388 430C559 486 707 503 892 409C1011 349 1116 351 1239 381" stroke="#45F7C5" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M-42 475C122 412 239 428 377 482C571 558 716 538 897 457C1025 400 1113 407 1245 439" stroke="#FFB84D" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M868 0L1168 0L784 630L548 630L868 0Z" fill="#F15C2E" fill-opacity="0.075"/>
+  <path d="M972 0L1200 0L886 630L760 630L972 0Z" fill="#45F7C5" fill-opacity="0.055"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="135" y="76" width="930" height="488" rx="34" fill="url(#panel)" stroke="url(#goldStroke)" stroke-width="1.6"/>
+    <rect x="156" y="96" width="888" height="448" rx="24" stroke="#E8DDB9" stroke-opacity="0.1"/>
+  </g>
+
+  <g transform="translate(185 116)">
+    <rect x="0" y="0" width="178" height="36" rx="18" fill="#0E1514" stroke="#45F7C5" stroke-opacity="0.42"/>
+    <circle cx="23" cy="18" r="7" fill="#45F7C5"/>
+    <text x="41" y="23" fill="#DDFBF0" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="2.4">AGENT SKILL</text>
+  </g>
+
+  <g transform="translate(183 205)">
+    <text x="0" y="0" fill="#FFF4D8" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700" letter-spacing="-3.2">Upgrade</text>
+    <text x="0" y="78" fill="#FFF4D8" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700" letter-spacing="-3.2">Tuist CLI</text>
+    <text x="4" y="125" fill="#C7D9D2" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="24" font-weight="500" letter-spacing="0.1">Safely bump Tuist, build-verify it,</text>
+    <text x="4" y="158" fill="#C7D9D2" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="24" font-weight="500" letter-spacing="0.1">and ship the PR with release notes.</text>
+  </g>
+
+  <g transform="translate(185 425)">
+    <rect x="0" y="0" width="166" height="48" rx="16" fill="#101816" stroke="#45F7C5" stroke-opacity="0.28"/>
+    <text x="20" y="30" fill="#45F7C5" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="15" font-weight="800">detect version</text>
+    <path d="M184 24H225" stroke="#E8DDB9" stroke-opacity="0.28" stroke-width="2"/>
+    <path d="M216 16L226 24L216 32" stroke="#E8DDB9" stroke-opacity="0.28" stroke-width="2"/>
+    <rect x="244" y="0" width="144" height="48" rx="16" fill="#101816" stroke="#FFB84D" stroke-opacity="0.32"/>
+    <text x="264" y="30" fill="#FFCF78" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="15" font-weight="800">clean build</text>
+    <path d="M407 24H448" stroke="#E8DDB9" stroke-opacity="0.28" stroke-width="2"/>
+    <path d="M439 16L449 24L439 32" stroke="#E8DDB9" stroke-opacity="0.28" stroke-width="2"/>
+    <rect x="468" y="0" width="128" height="48" rx="16" fill="#101816" stroke="#F15C2E" stroke-opacity="0.34"/>
+    <text x="494" y="30" fill="#FF9B75" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="15" font-weight="800">open PR</text>
+  </g>
+
+  <g transform="translate(734 150)" filter="url(#glow)">
+    <circle cx="165" cy="165" r="141" fill="#0C1211" stroke="url(#goldStroke)" stroke-width="2"/>
+    <circle cx="165" cy="165" r="108" stroke="#FFF1A6" stroke-opacity="0.11" stroke-width="1"/>
+    <g transform="translate(59 59) scale(0.414)" stroke="#FFF4D8" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.96">
+      <path d="M126.933 369.951C126.933 369.951 180.8 412.8 257.6 412.8C334.4 412.8 388.267 369.951 388.267 369.951"/>
+      <path d="M112 297.21C112 297.21 205.333 409.6 257.6 409.6C309.867 409.6 403.201 297.21 403.201 297.21"/>
+      <path d="M112 207.297C112 207.297 205.333 409.6 257.6 409.6C309.867 409.6 403.201 207.297 403.201 207.297"/>
+      <path d="M171.734 128.624C171.734 128.624 230.4 409.6 257.6 409.6C284.8 409.6 343.466 128.624 343.466 128.624"/>
+      <path d="M258.667 409.6V102.4"/>
+      <rect x="7" y="7" width="498" height="498" rx="249"/>
+    </g>
+    <circle cx="60" cy="70" r="9" fill="#45F7C5"/>
+    <circle cx="282" cy="94" r="6" fill="#FFB84D"/>
+    <circle cx="273" cy="263" r="10" fill="#F15C2E"/>
+    <circle cx="72" cy="278" r="5" fill="#FFF1A6"/>
+  </g>
+
+  <g transform="translate(731 457)">
+    <rect x="0" y="0" width="268" height="58" rx="18" fill="#07110F" fill-opacity="0.84" stroke="#E8DDB9" stroke-opacity="0.18"/>
+    <circle cx="31" cy="29" r="13" fill="#45F7C5" fill-opacity="0.16" stroke="#45F7C5" stroke-opacity="0.75"/>
+    <path d="M25 29L30 34L39 24" stroke="#45F7C5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="55" y="25" fill="#FFF4D8" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="15" font-weight="800">Rollback-aware automation</text>
+    <text x="55" y="45" fill="#B3C9C0" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="12" font-weight="700">non-interactive · verified · PR-ready</text>
+  </g>
+
+  <g transform="translate(184 520)">
+    <text x="0" y="0" fill="#C9DAD3" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="1.6">npx skills add 2sem/tuist-upgrade-skill</text>
+  </g>
+
+  <g transform="translate(911 104)">
+    <rect x="0" y="0" width="126" height="36" rx="18" fill="#FFF1A6" fill-opacity="0.1" stroke="#FFF1A6" stroke-opacity="0.18"/>
+    <text x="18" y="24" fill="#FFF1A6" font-family="Avenir Next, Futura, Helvetica, sans-serif" font-size="13" font-weight="900" letter-spacing="1.4">TUIST TOOL</text>
+  </g>
+</svg>

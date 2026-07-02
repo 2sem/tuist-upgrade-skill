@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Prototype C blueprint pipeline for upgrade-tuist-cli</title>
+  <desc id="desc">Blueprint-style pipeline social image for the Tuist upgrade skill.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#F7F1E4"/><stop offset="1" stop-color="#DDEDE8"/></linearGradient>
+    <pattern id="paper" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#123A36" stroke-opacity=".07"/></pattern>
+    <filter id="card" x="80" y="58" width="1040" height="540"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#123A36" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#paper)"/>
+  <circle cx="1008" cy="70" r="230" fill="#FF6E42" fill-opacity=".13"/><circle cx="78" cy="559" r="260" fill="#15BFA5" fill-opacity=".16"/>
+  <g filter="url(#card)"><rect x="120" y="78" width="960" height="474" rx="30" fill="#FFF9EC" stroke="#123A36" stroke-width="2"/></g>
+  <path d="M156 152h888M156 463h888" stroke="#123A36" stroke-opacity=".12" stroke-dasharray="8 10"/>
+  <g transform="translate(172 116)"><rect width="160" height="38" rx="19" fill="#123A36"/><text x="22" y="25" fill="#FFF9EC" font-family="Avenir Next, Futura, sans-serif" font-size="13" font-weight="900" letter-spacing="2.2">AGENT SKILL</text></g>
+  <text x="172" y="226" fill="#123A36" font-family="Avenir Next, Futura, sans-serif" font-size="62" font-weight="900" letter-spacing="-3.2">Tuist upgrades,</text>
+  <text x="172" y="291" fill="#123A36" font-family="Avenir Next, Futura, sans-serif" font-size="62" font-weight="900" letter-spacing="-3.2">without the gamble.</text>
+  <text x="176" y="348" fill="#41625D" font-family="Avenir Next, Futura, sans-serif" font-size="23" font-weight="700">Detect → upgrade → verify → rollback if needed → PR.</text>
+  <g transform="translate(174 404)" font-family="Avenir Next, Futura, sans-serif" font-size="15" font-weight="900">
+    <rect width="122" height="46" rx="23" fill="#15BFA5"/><text x="31" y="29" fill="#FFF9EC">detect</text><path d="M140 23h52m-12-9 13 9-13 9" stroke="#123A36" stroke-width="2"/>
+    <rect x="211" width="126" height="46" rx="23" fill="#F3C452"/><text x="246" y="29" fill="#123A36">build</text><path d="M355 23h52m-12-9 13 9-13 9" stroke="#123A36" stroke-width="2"/>
+    <rect x="426" width="110" height="46" rx="23" fill="#FF6E42"/><text x="457" y="29" fill="#FFF9EC">PR</text>
+  </g>
+  <g transform="translate(828 165)"><rect width="210" height="210" rx="105" fill="#123A36"/><g transform="translate(27 27) scale(.305)" stroke="#FFF9EC" stroke-width="18" stroke-linecap="round" fill="none"><path d="M126.933 369.951C126.933 369.951 180.8 412.8 257.6 412.8C334.4 412.8 388.267 369.951 388.267 369.951"/><path d="M112 297.21C112 297.21 205.333 409.6 257.6 409.6C309.867 409.6 403.201 297.21 403.201 297.21"/><path d="M112 207.297C112 207.297 205.333 409.6 257.6 409.6C309.867 409.6 403.201 207.297 403.201 207.297"/><path d="M171.734 128.624C171.734 128.624 230.4 409.6 257.6 409.6C284.8 409.6 343.466 128.624 343.466 128.624"/><path d="M258.667 409.6V102.4"/><rect x="7" y="7" width="498" height="498" rx="249"/></g></g>
+  <g transform="translate(753 408)"><rect width="287" height="64" rx="18" fill="#123A36"/><text x="25" y="27" fill="#FFF9EC" font-family="Avenir Next, Futura, sans-serif" font-size="17" font-weight="900">upgrade-tuist-cli</text><text x="25" y="49" fill="#B8D8D1" font-family="Avenir Next, Futura, sans-serif" font-size="13" font-weight="700">safe Tuist CLI upgrades for iOS repos</text></g>
+  <text x="172" y="513" fill="#41625D" font-family="Menlo, Monaco, monospace" font-size="15" font-weight="800">npx skills add 2sem/tuist-upgrade-skill</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Prototype B terminal command for upgrade-tuist-cli</title>
+  <desc id="desc">Terminal-inspired neon LinkedIn image for the Tuist upgrade skill.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#050807"/><stop offset=".52" stop-color="#061210"/><stop offset="1" stop-color="#06242A"/></linearGradient>
+    <radialGradient id="cyan" cx="0" cy="0" r="1" gradientTransform="translate(946 442) rotate(164) scale(560 365)" gradientUnits="userSpaceOnUse"><stop stop-color="#00F0FF" stop-opacity=".48"/><stop offset="1" stop-color="#00F0FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lime" cx="0" cy="0" r="1" gradientTransform="translate(202 117) rotate(33) scale(455 305)" gradientUnits="userSpaceOnUse"><stop stop-color="#BAFF5A" stop-opacity=".36"/><stop offset="1" stop-color="#BAFF5A" stop-opacity="0"/></radialGradient>
+    <linearGradient id="panelStroke" x1="128" y1="92" x2="1072" y2="538"><stop stop-color="#59FFE0"/><stop offset=".55" stop-color="#2CCDC2"/><stop offset="1" stop-color="#BAFF5A"/></linearGradient>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0h8" stroke="#EFFFFA" stroke-opacity=".035"/></pattern>
+    <filter id="shadow" x="100" y="68" width="1000" height="520"><feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#000" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#cyan)"/><rect width="1200" height="630" fill="url(#lime)"/><rect width="1200" height="630" fill="url(#scan)"/>
+  <path d="M91 123h1018M91 507h1018" stroke="#D9FFEF" stroke-opacity=".08"/><path d="M136 80l-56 470M1062 80l56 470" stroke="#D9FFEF" stroke-opacity=".08"/>
+  <path d="M110 555C256 506 416 522 584 553C757 585 910 583 1107 500" stroke="#59FFE0" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M-38 206C108 154 276 171 436 207C646 254 810 230 1008 147C1085 115 1148 107 1242 123" stroke="#BAFF5A" stroke-opacity=".09" stroke-width="2"/>
+  <g filter="url(#shadow)"><rect x="128" y="92" width="944" height="446" rx="26" fill="#07100F" stroke="url(#panelStroke)" stroke-opacity=".65" stroke-width="1.8"/><rect x="128" y="92" width="944" height="54" rx="26" fill="#0D1B19"/><path d="M128 146h944" stroke="#59FFE0" stroke-opacity=".2"/></g>
+  <circle cx="170" cy="120" r="7" fill="#FF5F57"/><circle cx="195" cy="120" r="7" fill="#FFBD2E"/><circle cx="220" cy="120" r="7" fill="#28C840"/>
+  <text x="252" y="125" fill="#A7BBB5" font-family="Menlo, Monaco, monospace" font-size="14" font-weight="700">~/ios-project — autonomous Tuist upgrade</text>
+  <text x="176" y="199" fill="#59FFE0" font-family="Menlo, Monaco, monospace" font-size="22" font-weight="800">$ npx skills add 2sem/tuist-upgrade-skill</text>
+  <text x="176" y="260" fill="#F4F7D2" font-family="Menlo, Monaco, monospace" font-size="68" font-weight="900" letter-spacing="-3.2">upgrade tuist</text>
+  <rect x="176" y="279" width="416" height="3" rx="1.5" fill="#59FFE0" fill-opacity=".72"/>
+  <g font-family="Menlo, Monaco, monospace" font-size="20" font-weight="800">
+    <text x="176" y="326" fill="#C0D5CE">✓ detect pinned version</text>
+    <text x="176" y="365" fill="#C0D5CE">✓ fetch latest stable release</text>
+    <text x="176" y="404" fill="#C0D5CE">✓ clean · generate --no-open · build</text>
+    <text x="176" y="443" fill="#C0D5CE">✓ rollback on failure · open PR on success</text>
+  </g>
+  <g transform="translate(760 196)">
+    <rect width="250" height="250" rx="44" fill="#0D1B19" stroke="#BAFF5A" stroke-opacity=".38"/>
+    <circle cx="125" cy="125" r="81" fill="#07100F" stroke="#DFFF98" stroke-width="5"/>
+    <g transform="translate(46 46) scale(.31)" stroke="#DFFF98" stroke-width="18" stroke-linecap="round" fill="none">
+      <path d="M126.933 369.951C126.933 369.951 180.8 412.8 257.6 412.8C334.4 412.8 388.267 369.951 388.267 369.951"/>
+      <path d="M112 297.21C112 297.21 205.333 409.6 257.6 409.6C309.867 409.6 403.201 297.21 403.201 297.21"/>
+      <path d="M112 207.297C112 207.297 205.333 409.6 257.6 409.6C309.867 409.6 403.201 207.297 403.201 207.297"/>
+      <path d="M171.734 128.624C171.734 128.624 230.4 409.6 257.6 409.6C284.8 409.6 343.466 128.624 343.466 128.624"/>
+      <path d="M258.667 409.6V102.4"/>
+      <rect x="7" y="7" width="498" height="498" rx="249"/>
+    </g>
+  </g>
+  <rect x="754" y="466" width="272" height="42" rx="21" fill="#BAFF5A" fill-opacity=".14" stroke="#BAFF5A" stroke-opacity=".38"/><text x="781" y="493" fill="#DFFF98" font-family="Menlo, Monaco, monospace" font-size="16" font-weight="900">build-verified PRs</text>
+  <rect x="176" y="477" width="326" height="31" rx="15.5" fill="#59FFE0" fill-opacity=".08" stroke="#59FFE0" stroke-opacity=".22"/><text x="196" y="498" fill="#9DFDEE" font-family="Menlo, Monaco, monospace" font-size="13" font-weight="800">non-interactive · rollback-aware</text>
+</svg>

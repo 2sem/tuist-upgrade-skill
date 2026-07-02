@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tuist upgrade skill LinkedIn image — Command focus</title>
+  <desc id="desc">Polished command-first terminal visual for the upgrade-tuist-cli skill.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#020909"/><stop offset=".48" stop-color="#08110F"/><stop offset="1" stop-color="#1A250C"/></linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(840 315) rotate(155) scale(570 360)" gradientUnits="userSpaceOnUse"><stop stop-color="#CBFF5E" stop-opacity=".36"/><stop offset="1" stop-color="#CBFF5E" stop-opacity="0"/></radialGradient>
+    <radialGradient id="aqua" cx="0" cy="0" r="1" gradientTransform="translate(250 475) rotate(-18) scale(520 255)" gradientUnits="userSpaceOnUse"><stop stop-color="#35F7D1" stop-opacity=".28"/><stop offset="1" stop-color="#35F7D1" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#000" flood-opacity=".58"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#EFFFFA" opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#halo)"/><rect width="1200" height="630" fill="url(#aqua)"/><rect width="1200" height="630" fill="url(#dots)"/>
+  <g filter="url(#shadow)"><rect x="112" y="84" width="976" height="462" rx="32" fill="#07100E" stroke="#D8FF7A" stroke-opacity=".52" stroke-width="1.8"/><rect x="112" y="84" width="976" height="58" rx="32" fill="#101916"/><path d="M112 142h976" stroke="#D8FF7A" stroke-opacity=".17"/></g>
+  <circle cx="155" cy="113" r="7" fill="#FF5F57"/><circle cx="180" cy="113" r="7" fill="#FFBD2E"/><circle cx="205" cy="113" r="7" fill="#28C840"/>
+  <text x="236" y="118" fill="#A6B8B0" font-family="Menlo, Monaco, monospace" font-size="14" font-weight="800">upgrade-tuist-cli</text>
+  <text x="160" y="208" fill="#EFFFFA" font-family="Menlo, Monaco, monospace" font-size="28" font-weight="900">Run one prompt.</text>
+  <text x="160" y="298" fill="#F8FFD8" font-family="Menlo, Monaco, monospace" font-size="72" font-weight="900" letter-spacing="-4">upgrade tuist</text>
+  <rect x="160" y="326" width="498" height="54" rx="18" fill="#35F7D1" fill-opacity=".12" stroke="#35F7D1" stroke-opacity=".38"/>
+  <text x="184" y="360" fill="#63FFE4" font-family="Menlo, Monaco, monospace" font-size="20" font-weight="900">$ npx skills add 2sem/tuist-upgrade-skill</text>
+  <g font-family="Menlo, Monaco, monospace" font-weight="800" font-size="17">
+    <text x="160" y="426" fill="#C7DCD4">✓ detects install method</text>
+    <text x="160" y="460" fill="#C7DCD4">✓ validates clean build</text>
+    <text x="160" y="494" fill="#C7DCD4">✓ creates PR with release notes</text>
+  </g>
+  <g transform="translate(770 172)"><rect width="244" height="244" rx="122" fill="#0C1714" stroke="#D8FF7A" stroke-opacity=".33"/><g transform="translate(43 43) scale(.31)" stroke="#D8FF7A" stroke-width="18" stroke-linecap="round" fill="none"><path d="M126.933 369.951C126.933 369.951 180.8 412.8 257.6 412.8C334.4 412.8 388.267 369.951 388.267 369.951"/><path d="M112 297.21C112 297.21 205.333 409.6 257.6 409.6C309.867 409.6 403.201 297.21 403.201 297.21"/><path d="M112 207.297C112 207.297 205.333 409.6 257.6 409.6C309.867 409.6 403.201 207.297 403.201 207.297"/><path d="M171.734 128.624C171.734 128.624 230.4 409.6 257.6 409.6C284.8 409.6 343.466 128.624 343.466 128.624"/><path d="M258.667 409.6V102.4"/><rect x="7" y="7" width="498" height="498" rx="249"/></g></g>
+  <g transform="translate(752 444)"><rect width="282" height="52" rx="26" fill="#D8FF7A" fill-opacity=".15" stroke="#D8FF7A" stroke-opacity=".38"/><text x="33" y="33" fill="#D8FF7A" font-family="Menlo, Monaco, monospace" font-size="16" font-weight="900">rollback-aware automation</text></g>
+</svg>

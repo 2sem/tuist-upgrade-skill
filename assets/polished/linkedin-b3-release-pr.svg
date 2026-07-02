@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tuist upgrade skill LinkedIn image — Release PR</title>
+  <desc id="desc">Polished terminal and pull request visual for the upgrade-tuist-cli skill.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630"><stop stop-color="#050706"/><stop offset=".55" stop-color="#101310"/><stop offset="1" stop-color="#241B09"/></linearGradient>
+    <radialGradient id="warm" cx="0" cy="0" r="1" gradientTransform="translate(1000 70) rotate(126) scale(500 390)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB54A" stop-opacity=".42"/><stop offset="1" stop-color="#FF784A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="green" cx="0" cy="0" r="1" gradientTransform="translate(160 520) rotate(-22) scale(500 280)" gradientUnits="userSpaceOnUse"><stop stop-color="#55FFD8" stop-opacity=".32"/><stop offset="1" stop-color="#55FFD8" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#000" flood-opacity=".56"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#warm)"/><rect width="1200" height="630" fill="url(#green)"/>
+  <path d="M778 0h256L730 630H518L778 0Z" fill="#FF784A" fill-opacity=".07"/>
+  <g filter="url(#shadow)"><rect x="118" y="82" width="964" height="466" rx="30" fill="#0A100E" stroke="#F4D57E" stroke-opacity=".55" stroke-width="1.7"/><rect x="118" y="82" width="964" height="56" rx="30" fill="#151913"/><path d="M118 138h964" stroke="#F4D57E" stroke-opacity=".18"/></g>
+  <circle cx="160" cy="111" r="7" fill="#FF5F57"/><circle cx="185" cy="111" r="7" fill="#FFBD2E"/><circle cx="210" cy="111" r="7" fill="#28C840"/>
+  <text x="242" y="116" fill="#B7C8C1" font-family="Menlo, Monaco, monospace" font-size="14" font-weight="800">tuist upgrade workflow</text>
+  <text x="162" y="203" fill="#55FFD8" font-family="Menlo, Monaco, monospace" font-size="21" font-weight="900">$ upgrade tuist</text>
+  <text x="162" y="270" fill="#FFF7D7" font-family="Menlo, Monaco, monospace" font-size="54" font-weight="900" letter-spacing="-2.8">ship the safe PR</text>
+  <text x="164" y="318" fill="#CEDDD6" font-family="Menlo, Monaco, monospace" font-size="18" font-weight="800">latest stable · clean build · release notes</text>
+  <g transform="translate(164 362)" font-family="Menlo, Monaco, monospace" font-size="16" font-weight="900">
+    <rect width="138" height="44" rx="16" fill="#55FFD8" fill-opacity=".12" stroke="#55FFD8" stroke-opacity=".35"/><text x="20" y="28" fill="#78FFE6">detect</text><path d="M154 22h42m-10-8 11 8-11 8" stroke="#DED9BA" stroke-opacity=".45" stroke-width="2"/>
+    <rect x="214" width="126" height="44" rx="16" fill="#F4D57E" fill-opacity=".12" stroke="#F4D57E" stroke-opacity=".38"/><text x="237" y="28" fill="#F4D57E">build</text><path d="M356 22h42m-10-8 11 8-11 8" stroke="#DED9BA" stroke-opacity=".45" stroke-width="2"/>
+    <rect x="416" width="110" height="44" rx="16" fill="#FF784A" fill-opacity=".14" stroke="#FF784A" stroke-opacity=".42"/><text x="448" y="28" fill="#FF9B78">PR</text>
+  </g>
+  <g transform="translate(724 174)"><rect width="310" height="258" rx="30" fill="#101713" stroke="#DED9BA" stroke-opacity=".18"/><rect x="24" y="24" width="262" height="48" rx="18" fill="#55FFD8" fill-opacity=".1"/><text x="47" y="55" fill="#81FFE8" font-family="Menlo, Monaco, monospace" font-size="16" font-weight="900">Pull request ready</text><g transform="translate(86 84) scale(.25)" stroke="#FFF7D7" stroke-width="20" stroke-linecap="round" fill="none"><path d="M126.933 369.951C126.933 369.951 180.8 412.8 257.6 412.8C334.4 412.8 388.267 369.951 388.267 369.951"/><path d="M112 297.21C112 297.21 205.333 409.6 257.6 409.6C309.867 409.6 403.201 297.21 403.201 297.21"/><path d="M112 207.297C112 207.297 205.333 409.6 257.6 409.6C309.867 409.6 403.201 207.297 403.201 207.297"/><path d="M171.734 128.624C171.734 128.624 230.4 409.6 257.6 409.6C284.8 409.6 343.466 128.624 343.466 128.624"/><path d="M258.667 409.6V102.4"/><rect x="7" y="7" width="498" height="498" rx="249"/></g><text x="48" y="226" fill="#C9DAD3" font-family="Menlo, Monaco, monospace" font-size="14" font-weight="800">✓ verified build</text><text x="48" y="248" fill="#C9DAD3" font-family="Menlo, Monaco, monospace" font-size="14" font-weight="800">✓ browser-open attempted</text></g>
+  <text x="164" y="500" fill="#C9DAD3" font-family="Menlo, Monaco, monospace" font-size="15" font-weight="900">npx skills add 2sem/tuist-upgrade-skill</text>
+</svg>
